@@ -1,1 +1,7 @@
 SELECT * FROM `alunos` WHERE 16;
+SELECT * FROM `alunos` WHERE idade = 16;
+SELECT * FROM `alunos` WHERE idade < 17;
+SELECT * FROM `alunos` WHERE sobrenome = 'Santos';
+SELECT * FROM `alunos` WHERE sobrenome LIKE '%Santos';
+SELECT * FROM `alunos` WHERE sobrenome LIKE '%Silv';
+SELECT * FROM `alunos` WHERE sobrenome LIKE '%Silv' and idade = 16;
